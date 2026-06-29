@@ -2,43 +2,93 @@
 
 ## Project Overview
 
-The Hospital Management System is a simple web-based application developed using HTML and CSS. It demonstrates basic hospital operations such as managing patients, doctors, and appointments.
+The Hospital Management System AWS project is a simple web-based application developed to demonstrate the use of web technologies and AWS cloud services in managing hospital information.
 
-This project was created as part of an AWS learning project and was managed using GitHub for version control.
+The project includes separate pages for managing patients, doctors, and appointments.
+
+---
 
 ## Features
 
-* Home page for the Hospital Management System
-* Patient information page
-* Doctor information page
-* Appointment management page
-* Responsive design using CSS
-* Navigation between pages
+* Patient information management
+* Doctor information display
+* Appointment scheduling page
+* Responsive website design using CSS
+* JavaScript functionality for user interaction
+* Multi-page website structure
+
+---
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-* Git
-* GitHub
-* AWS EC2 (for deployment practice)
+* JavaScript
+* Git and GitHub
+* AWS EC2
+* AWS RDS MySQL
+
+---
 
 ## Project Structure
 
-```text
 Hospital-Management-System-AWS/
-│── index.html
-│── style.css
-│── patients.html
-│── doctors.html
-│── appointments.html
+
+├── index.html
+
+├── patients.html
+
+├── doctors.html
+
+├── appointments.html
+
+├── style.css
+
+├── script.js
+
 └── README.md
-```
+
+---
+
+## AWS Services Used
+
+### Amazon EC2
+
+* Launched an EC2 instance to host the application.
+* Connected to the server using EC2 Instance Connect.
+
+### Amazon RDS
+
+* Created a MySQL database instance for storing hospital data.
+
+### Security Groups
+
+* Configured inbound rules to allow web and database traffic.
+
+---
+
+## JavaScript Functionality
+
+The project uses JavaScript to:
+
+* Display welcome messages.
+* Improve user interaction.
+* Add dynamic behavior to web pages.
+
+---
+
+## Future Enhancements
+
+* User authentication system
+* Patient registration forms
+* Doctor availability management
+* Database integration with MySQL
+* Appointment booking functionality
+
+---
 
 ## Author
 
 **Shirisha Yenni**
 
-## GitHub Repository
-
-https://github.com/shirishayenni27-afk/Hospital-Management-System-AWS
+GitHub: https://github.com/shirishayenni27-afk
